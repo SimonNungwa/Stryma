@@ -1,0 +1,2 @@
+# Stryma
+Music Streaming platform
