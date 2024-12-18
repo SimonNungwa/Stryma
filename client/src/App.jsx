@@ -4,6 +4,8 @@ import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 import Account from "./pages/Account";
 import MissingPage from "./pages/MissingPage";
+import Auth from "./pages/Auth.jsx";
+
 
 const App = () => {
     return (
@@ -13,6 +15,7 @@ const App = () => {
                 <Route path="/Search" element={<Search />} />
                 <Route path="/Saved" element={<Saved />} />
                 <Route path="/Account" element={<Account />} />
+                    <Route path="/Auth" element={<Auth />} />
                 <Route path="*" element={<MissingPage />} />
             </Routes>
         </BrowserRouter>
