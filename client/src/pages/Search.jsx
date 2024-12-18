@@ -1,9 +1,10 @@
 import MobileNav from "../component/MobileNav";
+import SearchBar from "../component/SearchBar.jsx";
 
 const Search = () => {
     return (
         <div className="p-4">
-            <h1>Search Page</h1>
+            <SearchBar />
             <MobileNav />
         </div>
     );
