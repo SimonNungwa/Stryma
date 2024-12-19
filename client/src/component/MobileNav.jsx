@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const MobileNav = () => {
     return (
+        // TODO: Do something about the Re render
         <section className="fixed bottom-0 left-0 w-full bg-white shadow-xl md:hidden">
             <ul className="flex justify-around items-center py-3">
                 {/* Home */}
