@@ -1,13 +1,17 @@
 import MobileNav from "../component/MobileNav";
-import LikedSongs from "./LikedSongs.jsx";
-import Playlists from "./Playlists.jsx";
+import RecentSongs from "../carousels/RecentSongs.jsx";
+import Recommended from "../carousels/Recommended.jsx";
 
 const Home = () => {
     return (
         <div className="p-4">
             <h1>Home Page</h1>
-            <LikedSongs />
-            <Playlists />
+
+            {/* carousels */}
+            <section>
+                <RecentSongs />
+                <Recommended />
+            </section>
             <MobileNav />
         </div>
     );
