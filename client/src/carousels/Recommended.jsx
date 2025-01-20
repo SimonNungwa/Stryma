@@ -1,6 +1,9 @@
 const Recommended = () => {
     return (
         <>
+            <section>
+                Recommended songs
+            </section>
         </>
     );
 };
