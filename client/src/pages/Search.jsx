@@ -4,7 +4,7 @@ import Categories from "../component/Categories.jsx";
 
 const Search = () => {
     return (
-        <div className="p-4">
+        <div className="p-4 ">
             <SearchBar />
             <Categories />
             <MobileNav />
