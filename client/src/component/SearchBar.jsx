@@ -2,7 +2,7 @@ import { AiOutlineSearch, AiOutlineFilter } from "react-icons/ai";
 
 const SearchBar = () => {
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center w-full">
             <form className="flex items-center relative">
                 {/* Search Input */}
                 <input
