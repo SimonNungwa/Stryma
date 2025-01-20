@@ -1,7 +1,7 @@
 const Categories = () => {
     return (
         <>
-            <h1 className="text-xl text-center py-2 font-bold text-gray-900">Browse Categories</h1>
+            <h1 className="text-xl text-center py-2 font-bold text-white">Browse Categories</h1>
             <div className="pb-12 p-3 grid gap-2 mb-5 grid-cols-2 md:grid-cols-3 md:gap-6">
                 <section className="border border-black p-6 py-16 bg-red-400 rounded-xl">
                     RnB
